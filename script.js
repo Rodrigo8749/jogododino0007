@@ -44,5 +44,5 @@ document.addEventListener("keydown", function(event) {
  function increaseSpeed() {
     speed += acceleration;
  }
- const speedInterval = setInterval(increaseSpeed, 35000);
+ const speedInterval = setInterval(increaseSpeed, 45000);
  const gameInterval = setInterval(moveObstaculo, interval);
