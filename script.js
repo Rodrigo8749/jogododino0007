@@ -1,7 +1,7 @@
 const dino = document.getElementById("dino");
 const obstaculo = document.getElementById("obstaculo");
 let isJumping = false;
-let speed = 10;
+let speed = 15;
 const acceleration = 10;
 const interval = 30;
 const gameAreaWidth = document.getElementById("gameArea").offsetWidth;
@@ -44,5 +44,5 @@ document.addEventListener("keydown", function(event) {
  function increaseSpeed() {
     speed += acceleration;
  }
- const speedInterval = setInterval(increaseSpeed, 45000);
+ const speedInterval = setInterval(increaseSpeed, 65000);
  const gameInterval = setInterval(moveObstaculo, interval);
